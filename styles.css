@@ -71,7 +71,7 @@ img {
       outline: none; }
       @media screen and (max-width: 990px) {
         .main-navigation .menu-toggle {
-          display: none; } }
+          display: inline-block; } }
       .main-navigation .menu-toggle:hover, .main-navigation .menu-toggle:active {
         border-color: #009ad8;
         color: #d80e00; }
@@ -89,14 +89,9 @@ img {
         .main-navigation .menu {
           display: none; } }
       .main-navigation .menu .menu-item {
-        position: relative;
-        z-index: 99;
         float: inline-start;
-        margin-left: 25px;
-        margin-right: 25px; }
+        }
         .main-navigation .menu .menu-item a {
-          position: relative;
-          z-index: 99;
           padding: 5px 25px;
           border: 2px solid;
           border-radius: 30px;
