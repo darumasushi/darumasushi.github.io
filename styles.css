@@ -9,6 +9,15 @@ body {
     font-size: 20px;
     font-family: Cambria;
 }
+
+head {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 50%;
+}
+
 table {
     width: 85%;
     text-align: left;
@@ -18,14 +27,15 @@ table {
     table-layout: fixed;
 }
 
+th:first-child {
+  width: 1200px;
+  text-align: left;
+}
+
 th {
     text-align: center;
     padding: 6px;
     border-top: 1px solid;
-}
-
-th:first-child {
-    width: 1200px;
 }
 
 td {
