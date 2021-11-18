@@ -164,6 +164,9 @@ input[disabled] {
         .mobile-navigation .menu .menu-item:last-child {
           border-bottom: none; }
         .mobile-navigation .menu .menu-item.current-menu-item a {
-          color: #009ad8; 
+          background-color: rgb(180, 153, 102);
+          border-color: rgb(180, 153, 102);
+          /* color: rgb(186, 167, 125); */
+          color: white;
 }
 
