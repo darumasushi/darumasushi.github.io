@@ -60,6 +60,7 @@ img {
     .main-navigation .menu-toggle, .main-navigation .menu {
       vertical-align: middle; }
     .main-navigation .menu-toggle {
+      z-index: 99;
       background: none;
       border: 2px solid transparen;
       color: white;
