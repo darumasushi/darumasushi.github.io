@@ -143,9 +143,9 @@ input[disabled] {
     @media screen and (min-width: 991px) {
       .mobile-navigation {
         display: none !important; } }
-        .main-navigation .menu-toggle, .main-navigation .menu {
+        .mobile-navigation .menu-toggle, .mobile-navigation .menu {
           vertical-align: middle; }
-        .main-navigation .menu-toggle {
+        .mobile-navigation .menu-toggle {
           background: none;
           border: 2px solid transparen;
           color: white;
@@ -156,29 +156,29 @@ input[disabled] {
           display: none;
           outline: none; }
           @media screen and (max-width: 990px) {
-            .main-navigation .menu-toggle {
+            .mobile-navigation .menu-toggle {
               display: inline-block; } }
-          .main-navigation .menu-toggle:hover, .main-navigation .menu-toggle:active {
+          .mobile-navigation .menu-toggle:hover, .mobile-navigation .menu-toggle:active {
             border-color: #009ad8;
             color: #d80e00; }
-        .main-navigation .menu {
+        .mobile-navigation .menu {
           list-style: none;
           display: inline-block;
           *zoom: 1; }
-          .main-navigation .menu:after {
+          .mobile-navigation .menu:after {
             content: " ";
             clear: both;
             display: block;
             overflow: hidden;
             height: 0; }
           @media screen and (max-width: 990px) {
-            .main-navigation .menu {
+            .mobile-navigation .menu {
               display: none; } }
-          .main-navigation .menu .menu-item {
+          .mobile-navigation .menu .menu-item {
             float: left;
             margin-left: 50px;
             margin-right: 50px; }
-            .main-navigation .menu .menu-item a {
+            .mobile-navigation .menu .menu-item a {
               padding: 5px 25px;
               border: 2px solid;
               border-radius: 30px;
@@ -186,7 +186,7 @@ input[disabled] {
               -webkit-transition: .3s ease;
                       transition: .3s ease;
               font-weight: 400; }
-            .main-navigation .menu .menu-item.current-menu-item a, .main-navigation .menu .menu-item:hover a {
+            .mobile-navigation .menu .menu-item.current-menu-item a, .mobile-navigation .menu .menu-item:hover a {
               background-color: rgb(180, 153, 102);
               border-color: rgb(180, 153, 102);
               /* color: rgb(186, 167, 125); */
