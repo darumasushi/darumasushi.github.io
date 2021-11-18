@@ -52,9 +52,21 @@ button {
   border: 2px solid;
   border-radius: 30px;
   color: rgb(180, 153, 102);
-  -webkit-transition: .3s ease;
-    transition: .3s ease;
   font-weight: 400;
+  display: inline-block;
+  position: relative;
+  margin: 25px;
+}
+
+.current {
+  background-color: rgb(180, 153, 102);
+  border-color: rgb(180, 153, 102);
+  /* color: rgb(186, 167, 125); */
+  color: white;
+}
+
+a {
+  margin: 25px;
 }
 
 img {
