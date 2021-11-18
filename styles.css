@@ -58,6 +58,10 @@ button {
   display: inline-block;
   position: relative;
   margin: 25px;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline; }
 }
 
 .current {
