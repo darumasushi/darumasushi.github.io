@@ -60,7 +60,6 @@ img {
     .main-navigation .menu-toggle, .main-navigation .menu {
       vertical-align: middle; }
     .main-navigation .menu-toggle {
-      z-index: 99;
       background: none;
       border: 2px solid transparen;
       color: white;
@@ -94,6 +93,8 @@ img {
         margin-left: 25px;
         margin-right: 25px; }
         .main-navigation .menu .menu-item a {
+          position: relative;
+          z-index: 99;
           padding: 5px 25px;
           border: 2px solid;
           border-radius: 30px;
