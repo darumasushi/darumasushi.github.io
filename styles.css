@@ -153,8 +153,14 @@ input[disabled] {
         padding: 20px;
         display: block;
         color: white; }
-      .mobile-navigation .menu .menu-item {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+      .mobile-navigation .menu .menu-item a {
+        padding: 5px 25px;
+        border: 2px solid;
+        border-radius: 30px;
+        color: rgb(180, 153, 102);
+        -webkit-transition: .3s ease;
+                transition: .3s ease;
+        font-weight: 400; }
         .mobile-navigation .menu .menu-item:last-child {
           border-bottom: none; }
         .mobile-navigation .menu .menu-item.current-menu-item a {
