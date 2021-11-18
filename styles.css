@@ -47,6 +47,13 @@ ul, ol {
 
 a {
   text-decoration: none;
+  padding: 5px 25px;
+        border: 2px solid;
+        border-radius: 30px;
+        color: rgb(180, 153, 102);
+        -webkit-transition: .3s ease;
+          transition: .3s ease;
+        font-weight: 400;
 }
 
 img {
