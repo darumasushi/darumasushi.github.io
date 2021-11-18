@@ -10,14 +10,6 @@ body {
     font-family: Cambria;
 }
 
-head {
-  display: block;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  top: 50%;
-}
-
 table {
     width: 85%;
     text-align: left;
