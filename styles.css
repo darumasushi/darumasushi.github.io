@@ -32,11 +32,14 @@ th {
 
 td {
     padding: 2px;
-    border-bottom: 1px solid;
 }
 
 td:nth-child(even) {
     text-align: center;
+}
+
+tr {
+  border-bottom: 1px solid;
 }
 
 tr:last-child {
