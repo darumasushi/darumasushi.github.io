@@ -32,12 +32,6 @@ th {
 
 td {
     padding: 2px;
-    white-space: nowrap;
-}
-
-tr {
-    display: flex;
-    flex-direction: column;
 }
 
 td:nth-child(even) {
