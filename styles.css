@@ -39,7 +39,7 @@ td:nth-child(even) {
 }
 
 tr {
-  
+    border-bottom: 1px solid;
 }
 
 tr:last-child {
