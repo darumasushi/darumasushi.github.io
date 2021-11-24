@@ -11,7 +11,7 @@ body {
 }
 
 table {
-    display: flex;
+    width: 95%;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
