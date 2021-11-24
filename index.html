@@ -18,23 +18,7 @@
                 Martedi Chiuso
             </h4>
 
-            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">
-
-            <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-            <script>
-            window.cookieconsent.initialise({
-            "palette": {
-                "popup": {
-                "background": "#000"
-                },
-                "button": {
-                "background": "#f1d600"
-                }
-            },
-            "theme": "edgeless",
-            "position": "bottom-right"
-            });
-            </script>
+            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
         </head>
 
         <body>
@@ -43,15 +27,25 @@
 
             <h5> I bambini sotto 120cm pagano metà prezzo </h5>
 
-            <div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-floating cc-type-info cc-theme-edgeless cc-bottom cc-right cc-color-override-688238583 " style="">
-                <!--googleoff: all-->
-                <span id="cookieconsent:desc" class="cc-message">This website uses cookies to ensure you get the best experience on our website. 
-                    <a aria-label="learn more about cookies" tabindex="0" class="cc-link" href="https://www.cookiesandyou.com" target="_blank">Learn more</a>
-                </span>
-                <div class="cc-compliance">
-                    <a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">Got it!</a>
-                </div>
-                <!--googleon: all-->
-            </div>
+            <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+            <script>
+            window.cookieconsent.initialise({
+              "palette": {
+                "popup": {
+                  "background": "#000"
+                },
+                "button": {
+                  "background": "#f1d600"
+                }
+              },
+              "theme": "edgeless",
+              "position": "bottom-right",
+              "content": {
+                "message": "Questo sito utilizza i cookies.",
+                "dismiss": "Ok.",
+                "link": "Cosa sono."
+              }
+            });
+            </script>
         </body> 
     </html>
