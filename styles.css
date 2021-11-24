@@ -11,12 +11,11 @@ body {
 }
 
 table {
-    width: 95%;
+    display: auto;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
-    table-layout: fixed;
+    margin-bottom: auto;
 }
 
 th:first-child {
