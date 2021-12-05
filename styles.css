@@ -39,6 +39,10 @@ td:nth-child(even) {
     text-align: center;
 }
 
+tr {
+  border-bottom: 1px solid rgba(180, 153, 102, 0.226)
+}
+
 tr:last-child {
     border-bottom: 1px solid;
 }
