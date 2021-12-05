@@ -40,7 +40,7 @@ td:nth-child(even) {
 }
 
 tr {
-  border-bottom: 1px solid rgba(180, 153, 102, 0.226)
+  border-bottom: 1px solid rgba(180, 153, 102, 0.432)
 }
 
 tr:last-child {
