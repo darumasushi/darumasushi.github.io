@@ -17,6 +17,7 @@ table {
     margin-right: auto;
     margin-bottom: auto;
     table-layout: fixed;
+    border-top: 1px solid;
 }
 
 th:first-child {
@@ -27,7 +28,7 @@ th {
     width: 1200px;
     text-align: center;
     padding: 6px;
-    border-top: 1px solid;
+    /* border-top: 1px solid; */
 }
 
 td {
