@@ -40,12 +40,12 @@ td:nth-child(even) {
 }
 
 tr {
-  border-bottom: 1px solid rgb(180, 153, 102)
+    border-bottom: 1px solid rgb(180, 153, 102);
 }
 
-/* tr:last-child {
+tr:last-child {
     border-bottom: 1px solid;
-} */
+}
 
 ul, ol {
     margin: 0;
