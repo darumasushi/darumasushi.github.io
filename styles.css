@@ -28,11 +28,12 @@ th {
     width: 1200px;
     text-align: center;
     padding: 6px;
+    /* border-top: 1px solid; */
 }
 
 td {
     padding: 2px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid rgb(180, 153, 102);
 }
 
 td:nth-child(even) {
