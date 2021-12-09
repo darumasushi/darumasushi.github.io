@@ -63,7 +63,8 @@ button {
   font-family: inherit;
   font-size: 100%;
   margin: 0;
-  vertical-align: baseline; 
+  vertical-align: baseline;
+  margin-bottom: 35px;
 }
 
 .current {
