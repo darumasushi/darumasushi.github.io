@@ -20,18 +20,6 @@ table {
     border-top: 1px solid;
 }
 
-.img:hover{
-    -webkit-transition: all .3s ease-in;
-    -moz-transition: all .3s ease-in;
-    -ms-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
-    transition: all .3s ease-in;
-    transform: scale(2);
-    -ms-transform: scale(2); /* IE 9 */
-    -webkit-transform: scale(2); /* Safari and Chrome */
-
-}
-
 th:first-child {
     text-align: left;
 }
